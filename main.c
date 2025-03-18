@@ -37,7 +37,7 @@ static jo_sound stop_audio;
 
 // Input delay handling
 static int button_delays[4] = {0, 0, 0, 0};  // up, down, left, right
-static const int DELAY_FRAMES = 20;
+static const int DELAY_FRAMES = 20; //delay between pressed movements
 
 // Function definition for load_audio_file
 static bool load_audio_file(const char* filename, jo_sound* sound) {
